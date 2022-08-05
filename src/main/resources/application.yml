@@ -6,3 +6,24 @@ spring:
           github:
             client-id: Iv1.3afa9357d9b0712f
             client-secret: f1bc1db09b8ced02c5a06c6faae8e6793e2c1380
+
+data: 
+  cassandra:
+    keyspace-name: main
+    username: ggptjMjgillOeOuevZEpuFIs
+    password: G+DWTW11eOh40,RyqkddLIya9DJUrI3JDisFeTepwf+,QLf9LL5s0NBKSFW4ZhA9Q0Q_zZ_ekJUWOjfZvZEi_O7xTCPZUj1.yXbN+dCn0xknPMR_33_iTBYUF0zsgWk4
+    schema-action: recreate-drop-unused 
+    request:
+      timeout: 10s
+    connection:
+      connect-timeout: 10s 
+      init-query-timeout: 10s 
+
+astra.db:
+  id: 0e782a94-a610-47ca-84a1-bfa6aed8ff25-1
+  region: us-east1
+  keyspace: main
+  appliction.token: AstraCS:ggptjMjgillOeOuevZEpuFIs:74756abe4391cfee3fdc1cf9641811585073a263203797b41c5ae40300de52ce
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-inboxapp.zip
