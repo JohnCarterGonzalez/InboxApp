@@ -1,5 +1,6 @@
 package com.johncarter;
 
+import java.io.File;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * 
