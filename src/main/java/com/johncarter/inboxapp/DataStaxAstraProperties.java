@@ -1,4 +1,4 @@
-package com.johncarter;
+package com.johncarter.inboxapp;
 
 import java.io.File;
 import org.springframework.boot.context.properties.ConfigurationProperties;
